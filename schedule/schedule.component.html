@@ -1,0 +1,117 @@
+
+
+	<header id="header" >
+				
+			</header><!-- #header -->
+			
+	<div class="limiter">
+		<div class="container-table100" style="position:relative; top:40px;" >
+			<div class="wrap-table100">
+				<div class="table100">
+
+						<div class="container">
+								<table class="table">
+									<thead class="thead-dark">
+										<tr>
+												<th>Filght ID</th>
+												<th>FilghtName</th>
+												<th>From</th>
+												<th>To</th>
+												<th>Depart</th>
+												<th>Arrive</th>
+												<th>Seats</th>
+												<th>Price</th>
+												<th>BookNow</th>
+										</tr>
+									</thead>
+									<tbody>
+									<tr class="table-primary"*ngFor="let s of schedules">
+										 <td>{{s. flightId}}</td>
+										 <td>{{s.flightName}}</td>
+										 <td>{{s.from}}</td>
+										 <td>{{s.to}}</td>
+										 <td>{{s.depart}}</td>
+										 <td>{{s.arrive}}</td>
+										 <td>{{s.seats}}</td>
+										 <td>{{s.Price}}</td>
+										 <div>
+												<a (click)="onClick()" class="btn btn-dark">BookNow</a>
+											</div>
+									</tr>
+								</tbody>
+								</table>
+								</div>
+								
+					
+							 <!-- <table class="table">
+								<thead class="thead-dark">
+									<tr>
+										<th>Filght ID</th>
+										<th>FilghtId Name</th>
+										<th>From</th>
+										<th>To</th>
+										<th>Depart</th>
+										<th>Arrive</th>
+										<th>Seats</th>
+										<th>Price</th>
+										<th>BookNow</th>
+									</tr>
+								</thead>
+								<tbody>
+								<tr class="table-primary">
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								<div>
+									<a (click)="onClick()" class="btn btn-dark">BookNow</a>
+								</div>
+								</tr>
+								<tr class="table-Active">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<button class="btn btn-dark" (click)="book()">BookNow</button>
+									
+									</tr>
+
+									<tr class="table-primary">
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr class="table-Active">
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+								</tbody>
+						</table> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
